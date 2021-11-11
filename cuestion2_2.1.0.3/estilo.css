@@ -1,0 +1,28 @@
+#selector1 p{
+
+    color: red;
+
+
+}
+
+#selector1 >p{
+
+    color:green;
+
+
+}
+
+#selector2 .sele{
+    text-align: center;
+}
+
+h1 + h2 { 
+
+    color: red 
+
+}
+
+/*div :first-child / Representa el primer elemento entre un grupo de elementos hermanos. */
+div :first-child{
+    background-color: yellow;
+}

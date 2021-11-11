@@ -1,0 +1,56 @@
+/* SELECTORES BASICOS */
+
+h1{
+    text-align: center;
+
+}
+p{
+    margin: 1em 50px;
+    color: white;
+}
+
+
+/* --------------------------------------------------------------- */
+/* SELECTORES MAS COMPLEJOS */
+
+/* Pseudo Clases  */
+
+a{
+    color: black;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+a:visited{
+    color: blueviolet;
+
+}
+
+a:hover{
+    color: brown;
+}
+/* p:nth-child(1)  / Sierve para coger el primer elemeto de p */
+/* p:nth-child(odd) / Sierve para cojer todos los inpares */
+/* p:nth-child(even) / Sierve para cojer todos los pares */
+p:nth-child(even){         
+background-color: red;
+
+}
+
+p:nth-child(odd){
+    background-color: black;
+}
+
+/* Pseudo Elemetos  */
+
+
+/* li::after / Sierve para poner contenido detras de los li */
+/* li::before / Sierve para poner contenido antes de los li */
+li::before{
+    content:"-";
+}
+
+/* h2::first-letter / Seleccionara la primera letra  */
+h2::first-letter{
+    background-color: burlywood;
+}

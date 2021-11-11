@@ -1,0 +1,40 @@
+/* POSOTION FIXED */
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    background: blueviolet;
+    position: fixed;
+    left: 50px;
+    top:20px;
+}
+
+.rectangulo{
+    width: 300px;
+    height: 4000px;
+    background: black;
+}
+
+/* POSITION RELATIVE */
+
+
+.cuadrado2{
+    width: 200px;
+    height: 200px;
+    background:burlywood;
+    position: relative;
+    left: 400PX;
+   
+}
+
+
+/* POSITION ABSOLUTE */
+
+.circulo{
+    width: 30px;
+    height: 30px;
+    background: chartreuse;
+    border-radius: 50%;
+    position: absolute;
+    left: 43%;
+    top: 43%;
+}

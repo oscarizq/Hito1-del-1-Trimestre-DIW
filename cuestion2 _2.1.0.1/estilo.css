@@ -1,0 +1,23 @@
+#grid{
+    display: grid;
+    display: block;
+    margin: 5%;
+
+}
+
+#grid div{
+    background-color: aqua;
+    padding: 1em;
+}
+
+div:hover{
+    border: 1px solid steelblue;
+}
+
+.cajas{
+    background-color: tan;     /* Para que se aplique dentro de la caja tengo 
+    que poner (#grid .caja1)  */
+
+    text-align: center;
+}
+

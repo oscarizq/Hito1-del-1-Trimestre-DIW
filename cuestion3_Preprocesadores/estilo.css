@@ -1,0 +1,35 @@
+form {
+  width: 330px;
+  padding: 40px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: #ccc;
+}
+form label {
+  width: 12px;
+  font-weight: bold;
+  display: inline;
+}
+h2 {
+  text-align: center;
+  background-color: #ccc;
+  font-size: 30px;
+}
+p {
+  text-align: center;
+  font-weight: bold;
+}
+#tabla table {
+  text-align: center;
+  margin: auto;
+  background-color: #ccc;
+}
+#formualrio .foto {
+  display: inline-block;
+  margin-top: 20;
+}
+.foto img {
+  border-radius: 8px;
+  filter: grayscale(70%);
+  margin-top: 5%;
+}
